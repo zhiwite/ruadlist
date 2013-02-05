@@ -1594,7 +1594,7 @@ _tizers.
 ||t.pusk.ru^
 ||tak.ru^
 ||takru.com^
-||tankionline.com^$domain=~tankiforum.com|~tankionline.com
+||tankionline.com^$third-party
 ||tbn.ru^$third-party,~popup,popup
 ||tdmplus.ru^$third-party
 ||tds-banner.do.am^
@@ -5107,7 +5107,7 @@ na-svyazi.ru##TD[width="320"][align="center"]
 @@||adcast.ru/mtsweb?$domain=mts.ru
 @@||adriver.ru/cgi-bin/click.cgi?$subdocument,domain=surfingbird.com|surfingbird.ru
 @@||adriver.ru/cgi-bin/erle.cgi?*&sz=$object-subrequest,domain=ivi.ru
-@@||adsbox.com.ua^$~third-party
+@@||adsbox.$domain=adsbox.com.ua|adsbox.ru
 @@||ads.adfox.ru/crossdomain.xml$domain=molodejj.tv
 @@||ads.ertelecom.ru^$domain=citydom.ru
 @@||ads.rb.ru/video_banner.php$object-subrequest
