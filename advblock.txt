@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: T0t+Ku86BBgarCLI979nag
-! Last modification time (GMT): 2013.03.25 16:06
+! Checksum: KNjJf9ebbjmSFvnLr3g+EA
+! Last modification time (GMT): 2013.03.25 16:11
 ! Homepage: http://ruadlist.googlecode.com/
 !
 ! Дополнительная региональная подписка RU AdList к подписке EasyList
@@ -775,6 +775,7 @@ _tizers.
 ||anons.greenmama.ru^$third-party
 ||antmoney.com^$third-party
 ||anyfiles.ru^$domain=~moi-progi.ru
+||anyreads.com^$third-party
 ||ap-jam.com^$third-party
 ||arbocontext.ru^
 ||artbanner.com.ua^
@@ -884,6 +885,7 @@ _tizers.
 ||company.1ps.ru^
 ||content.relax.ru^
 ||context.hotline.ua^
+||context-platform.com^
 ||corporative.ru^$third-party
 ||cpmsolution.ru^
 ||cqc.ru^
@@ -975,6 +977,7 @@ _tizers.
 ||fire-casino.com^$third-party
 ||firefoxstabs.com^
 ||flapoint.ru^
+||fleshlight-russia.com/fbn/
 ||flirchi.ru^$third-party,~popup,popup
 ||fmates.ru^$third-party
 ||fooder.ru^$third-party
@@ -1204,6 +1207,7 @@ _tizers.
 ||lovn.ru^$third-party
 ||lux-bn.com.ua^
 ||luxcash.ru^
+||luxcdn.com^
 ||luxup.ru^
 ||luxurycash.net^
 ||m2k.ru/cgi-bin/
@@ -3125,6 +3129,8 @@ ihomepages.hol.es###nor_wrap
 ||5ka.ru/jscr/
 ||7ja.ru/imgb/
 ||7sl.ru/uploads/$object
+99px.ru##.advertizing
+99px.ru##.advertizing_left
 9sx.ru##MARQUEE[scrollamount]
 !
 !A
@@ -3614,6 +3620,7 @@ habrahabr.ru##.block[class$="_htmlblock"]
 ||hacker-pro.net/banner/
 haleava.net##CENTER > NOINDEX > A[target="_blank"]
 hdclub.org,tracker.hdclub.com.ua##DIV[id^="myDiv"]
+||hd-systems.com.ua/images/banners/
 hdtv.ru###bnr_1
 ||hdtv.ru/resources/$object
 headsoft.kz###promo
@@ -3815,6 +3822,7 @@ lectro.ru###Popunder
 ||lectro.ru^*-pop-under-
 lenta.ru##.b-remove-m
 ||leporno.org/rt/
+||leporno.org/rt1/
 ! Letitbit
 goclips.tv##.bottom_videos
 goclips.tv###right
@@ -3832,6 +3840,7 @@ lib.rus.ec,posters.ec###sidebar-right IMG
 ||lib.rus.ec/sites/default/files/$object
 ||liveangarsk.ru/files/k
 ||liveangarsk.ru/files/$object
+||livefootball.ws^$object
 ||livelib.ru/240x400.
 ||livelib.ru/side|
 lifehacker.ru##.rblock1
@@ -4541,11 +4550,9 @@ uniongang.tv##.block[height="27"]
 uniongang.tv##DIV[target="_blank"][tooltip]
 uniongang.tv##[id^="bn_"]
 uniongang.tv##.outer > BR
-urod.ru##TR[valign="top"] > TD[width="249"]
-urod.ru##TD[width="613"] > A:not([href*="urod.ru"])
-||youtube.com^$domain=uniongang.tv
 ||uniongang.tv^$object
-unionpeer.org##TR + TR > TD[align="center"] > A[target="_blank"] > IMG
+||youtube.com^$domain=uniongang.tv
+unionpeer.org##TD[align="center"][colspan="2"] > A[target="_blank"] > IMG[src^="/images/"]
 ||unionpeer.org^$object
 unsorted.me##TD:first-child + TD[valign="middle"][align="center"]
 upload.com.ua##.info_banner_block
@@ -4553,6 +4560,8 @@ uploder.ws##CENTER:last-child
 ||uptracker.ru/images/casino/
 ||upweek.ru/wp-content/banners/
 ura-inform.com##IFRAME[width="468"][height="60"]
+urod.ru##TD[width="613"] > A:not([href*="urod.ru"])
+urod.ru##TR[valign="top"] > TD[width="249"]
 ||uzumaki.kz/go?$script
 !
 !V
@@ -5081,11 +5090,12 @@ ua##A[href^="/redirect/url?url="] > IMG[src^="/upload/jackets/"]
 ||awaps.yandex.*&swfcode=
 ||bs.yandex.$script
 ||kiks.yandex.
-music.yandex.kz,music.yandex.ru,music.yandex.ua###js-banner
 ||music.yandex.ru/specprojects/
 ||yabs.yandex.*/show/$third-party
-yandex.kz,yandex.ru,yandex.ua##.b-adv
+###banner.b-banner__content
 ##.ya-partner_ads-up
+yandex.kz,yandex.ru,yandex.ua##.b-adv
+music.yandex.kz,music.yandex.ru,music.yandex.ua###js-banner
 ! Яндекс.Директ
 ! Директ вверху и внизу в поиске
 ##.g-gap-vertical[class^="b-"][class$="_type_highlighted"]:not([class^="b-pager"])
@@ -5355,9 +5365,11 @@ ph4.ru#@#.reklama
 vtomske.ru#@#.adtable
 !#detect.bookmark
 aqa.ru#@#div[id^="div-gpt-ad-"]
-@@||kino-v-online.ru^$elemhide
 @@||kinomafia.com^$elemhide
+@@||kino-v-online.ru^$elemhide
 @@||liverail.com^*/admanager.swf|$domain=own3d.tv
+@@||luxup.ru^$script,domain=99px.ru
+@@||visitweb.com^$script,domain=99px.ru
 ! wordpress plugin no-adblock
 ###ta8c
 @@#/ad160x600.$image,domain=fileplaneta.com|mediapapa.org|russerial.com
