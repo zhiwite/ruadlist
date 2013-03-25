@@ -1,6 +1,6 @@
 [Adblock Plus 1.3.5]
-! Checksum: R3bkuoiqivoWKRUnKeKI9A
-! Last modification time (GMT): 2013.03.03 05:48
+! Checksum: x5Xh8PdAtbYCE9UQ/ya1Tw
+! Last modification time (GMT): 2013.03.24 13:13
 ! Expires: 5 days (подписка обновляется автоматически каждые 5 дней)
 ! Homepage: http://ruadlist.googlecode.com/
 !
@@ -152,6 +152,7 @@
 ||demandbase.com^$third-party
 ||dmtracker.com^$third-party
 ||dnn506yrbagrg.cloudfront.net^
+||doubleclick.net/pixel?
 ||dw.com.com^
 ||eabafou.net^$third-party
 ||elitestat.ru^$third-party
@@ -312,6 +313,7 @@
 ||topshops.com.ua/images/buttons/
 ||toptj.com^$third-party
 ||toptracker.ru/details.php?id=
+||track.hubrus.com^
 ||trafit.com^$third-party
 ||triggertag.gorillanation.com^$third-party
 ||ttrating.com^$third-party
