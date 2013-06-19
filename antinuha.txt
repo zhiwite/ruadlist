@@ -1,7 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: F6tS2cTBkHi2Lik9MIwHXg
-! Last modification time (GMT): 2013.04.25 15:21
+! Checksum: phTuvJoDnal9k5tnTkMkuA
+! Last modification time (GMT): 2013.06.19 12:02
 ! Expires: 3 days (подписка обновляется автоматически каждые 3 дня)
+! Redirect: https://easylist-downloads.adblockplus.org/antinuha.txt
 ! Homepage: http://ruadlist.googlecode.com/
 ! Дополнительная подписка фильтров RU AntiPron List
 ! Эта подписка предназначена для
